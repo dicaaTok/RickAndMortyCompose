@@ -20,7 +20,7 @@ class CharacterViewModel(
 
      fun fetchCharacters() {
          charactersRepository.fetchCharacters()?.let{
-             _characters.value = it.
+             _characters.value = it
 
          }
     }
